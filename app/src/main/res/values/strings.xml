@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ApkScope</string>
+    <string name="back">Back</string>
+    <string name="info">About ApkScope</string>
+    <string name="info_message">ApkScope shows how every installed app is built: versions, SDK levels, APK files and splits, native libraries, signing certificates, permissions and manifest components.\n\nIt has no Internet permission, no analytics and no storage permission. Nothing leaves your phone unless you share or save it yourself.\n\nLong press any value to copy it.</string>
+    <string name="close">Close</string>
+
+    <string name="search_hint">Search by name or package</string>
+    <string name="show_system">Show system apps</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_update">Updated</string>
+    <string name="sort_target">Target SDK</string>
+    <string name="loading">Reading your apps…</string>
+    <string name="load_failed">Could not read your apps.</string>
+    <string name="empty_apps">No apps found.</string>
+    <string name="empty_search">No results.</string>
+    <string name="tag_system">System</string>
+    <plurals name="list_count">
+        <item quantity="one">%1$d app shown</item>
+        <item quantity="other">%1$d apps shown</item>
+    </plurals>
+    <string name="app_meta">%1$s (%2$d) · target %3$d · updated %4$s</string>
+
+    <string name="tab_details">Details</string>
+    <string name="tab_permissions">Permissions (%1$d)</string>
+    <string name="tab_permissions_empty">Permissions</string>
+    <string name="tab_components">Components (%1$d)</string>
+    <string name="tab_components_empty">Components</string>
+    <string name="action_open">Open</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_report">Report</string>
+    <string name="action_save">Save APK</string>
+    <string name="exported_only">Exported only</string>
+    <string name="details_failed">Could not read this app.</string>
+    <string name="app_missing">This app is no longer installed.</string>
+    <string name="no_permissions">This app requests no permissions.</string>
+    <string name="no_components">This app declares no components.</string>
+    <string name="no_exported">This app has no exported components.</string>
+    <string name="component_note">An exported component with no permission is a fact read from the manifest. The component can still check its caller in code.</string>
+    <string name="component_stats">%1$d components · %2$d exported · %3$d exported with no permission</string>
+    <string name="manifest_incomplete">Android could not return the whole manifest of this app, so this list may be missing entries.</string>
+    <string name="tag_exported">Exported</string>
+    <string name="tag_not_exported">Not exported</string>
+    <string name="tag_exported_open">Exported, no permission</string>
+    <string name="tag_granted">Granted</string>
+    <string name="tag_not_granted">Not granted</string>
+    <string name="tag_grant_unknown">Unknown</string>
+
+    <string name="copied">Copied</string>
+    <string name="copy_failed">Could not copy this value.</string>
+    <string name="open_failed">Android could not open this app.</string>
+    <string name="no_launcher">This app has no launcher screen.</string>
+    <string name="settings_failed">Android could not open this settings page.</string>
+    <string name="report_title">Report</string>
+    <string name="report_share">Share as text</string>
+    <string name="report_save">Save as file</string>
+    <string name="report_share_failed">Could not open the share sheet.</string>
+    <string name="report_truncated">The report was too long for the share sheet and was shortened. Use Save as file for the full text.</string>
+    <string name="save_title">Save which file?</string>
+    <string name="save_started">Saving…</string>
+    <string name="save_done">Saved.</string>
+    <string name="save_failed">Could not save the file.</string>
+    <string name="save_unavailable">No file picker is available.</string>
+</resources>
